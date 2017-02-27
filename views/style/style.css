@@ -1,0 +1,231 @@
+* {
+	font-family: "Comic Sans MS", monospace;
+	font-style: normal;
+}
+
+
+
+
+
+.wrapper{
+	margin-top: 0;
+	min-height: 85vh;
+	width: 1100px;
+	background-image: url("/project/images/exl_1.jpg");
+	background-attachment: fixed; /* фиксация фон. изображения*/
+	margin-left: 130px;
+}
+
+.header{
+	width: 1100px;
+	margin-left: 130px;
+	background: #ffad0a;
+	background: linear-gradient(#ffad0a 20%, #F6D299 80%);
+}
+
+.top_menu li {
+    	display: inline; /* Отображать как строчный элемент */
+		/*background: black;*/
+    	}
+
+.top_menu li a{
+   			color: white;
+ 			font-size: 20px;
+      		text-decoration: none;
+			margin-right: 20px;
+			background: #ffa513;
+   		}
+.top_menu li a:hover{
+   						background: none; /* Цвет фона под ссылкой */
+						color: black;
+						text-decoration: underline;
+   					}
+.down{
+	width:1100px;
+}
+.down input{
+	float: left;
+}
+.down input[name="search_text"]{
+	margin-left: 40px;
+	margin-right: 10px;
+}
+.down input[name="search"]{
+	margin-right: 670px;
+}
+.down button{
+	margin-bottom: 10px;
+}
+.down button[name="logout"]{
+
+	margin-left: 10px;
+}
+.down button[name="dan"]{
+	margin-left: 815px;
+	float: left;
+}
+
+.down button[name="log"]{
+	margin-right: 30px;
+}
+
+.search{
+	min-height: 68vh;
+	text-align: center;
+}
+
+.table_main{
+	width: auto;
+	margin:auto;
+	background-color:white;
+}
+
+.table_main tr{
+	border-collapse: collapse;
+	border-color: #286090;
+	border: dashed 1px;
+	}
+	.main_table_td{
+		width: 300px;
+		height: 300px;
+		vertical-align: top;
+		padding: 5px;
+		/*border:dashed 1px;*/
+		text-align: center;
+
+	}
+.main_table_td_flex{
+	width: 300px;
+	height: 300px;
+	/*border:dashed 1px;*/
+	text-align: left;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main_table_td_flex h5{
+	margin-top: -50px;
+
+}
+.main_table_td_flex a{
+	color:green;
+}
+
+.main_table_td_flex a:hover{
+	background: none; /* Цвет фона под ссылкой */
+	color: black;
+	text-decoration: none;
+}
+
+		.img{
+ 			width: 250px;
+ 			height: 250px;
+			margin-top: 20px;
+ 		}
+
+ 		.main_table_td a{
+ 			color:green;
+		}
+ 			.main_table_td a:hover{
+ 				background: none; /* Цвет фона под ссылкой */
+   				color: black;
+   				text-decoration: none;
+ 			}
+
+.pub_date {
+ 					font-style: italic;
+					text-align: right;
+					margin-right: 10px;
+					margin-bottom: 20px;
+			}
+
+		
+.pagination {
+ 	background: orange;
+  	width: 100%;
+ 	 font-size: 20px;
+ 	 text-align: center;
+  	 height: 40px;
+ 	 padding: 7px;
+	 		}
+
+	.pagination a{
+ 	 	font-size: 20px;
+		padding: 10px;
+ 		margin: auto;
+  		width: auto;
+ 		color: white;
+ 		text-decoration: none; /*убираю подчеркивание*/
+  		text-align: center;
+
+   		}
+
+  		.pagination a:hover{
+  				background: none; /* Цвет фона под ссылкой */
+   				color: black; /* Новый цвет ссылки */
+    			text-decoration: none;
+    		}
+
+ .img_news{
+ 	width: 450px;
+ 	height: 450px;
+ 	float: left;
+ 	margin: 10px 20px ; /* 10 px отступ от верхнего и нижнего края , 20px -  слева и справа*/
+ }
+ 
+ .news{
+	 margin: 10px;
+	 padding: 10px;
+ 	width: auto;
+ 	background: white;
+
+
+ }
+
+ .news div{
+	 text-align: right;
+	 font-weight: 900;
+ 	font-style: italic;
+
+ }
+ .body{
+	 padding-top: 30px;
+
+ }
+ .body  h1{
+	 margin: 0;
+	 text-align: center;
+ }
+.body  h3{
+	margin: 0;
+	text-align: center;
+}
+.body  h4{
+	margin: 0;
+	text-align: center;
+}
+.body  input[name="change"]{
+	margin-left: 100px;
+}
+
+
+
+
+
+.footer_body{
+	width: 1100px;
+	margin-left: 130px;
+	margin-top: -20px;
+	color: white;
+	background-color: #3344ff
+	/*background-color: black;*/
+}
+.footer_list{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	list-style-type: none;
+	text-align: center;
+}
+

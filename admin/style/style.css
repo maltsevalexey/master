@@ -1,0 +1,171 @@
+* {
+    font-family: Algerian;
+}
+
+#body_admin{
+    background: #EFE4B0;
+}
+header h1{
+    width: 600px;
+    text-align: center;
+    /*background: #9cd946;*/
+    margin: 0 auto;
+    padding: 0;
+    /*border: solid 2px;*/
+}
+header a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white  ;
+}
+header a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    color: black  ;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #d58512  ;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 25px;
+    color: #1f78d9  ;
+}
+table{
+    background: white;
+
+    border-collapse: collapse;
+    border: 2px;
+    border-color: black;
+}
+table th{
+    border: solid 2px;
+
+    color: black;
+    border-radius: 15px;
+    background: #2959ff
+}
+#nav{
+    margin: 0;
+    padding: 0;
+    /*font-size: 0;*/
+    text-align: center;
+    /*background: #8f5cd9;*/
+}
+#list_header{
+   list-style: none;
+    margin: 5px 0 10px 0;
+    padding: 0;
+    color: black;
+   }
+#list_header li {
+    display: inline-block;
+    padding: 5px;
+   border: solid 1px;
+    margin: 5px;
+    border-radius: 20px;
+    background: #120ad9;
+    color: black;
+
+
+}
+#list_header li:hover {
+    background: #12bdd9;
+}
+section {
+    margin-left: 165px;
+    background: #ffad0a;
+    background: linear-gradient(90deg,  #ffad0a 35%, #5B31F8 60%);
+    width: 1000px;
+    border: solid 1px;
+}
+
+.label{
+    width:900px;
+    padding: 10px;
+
+    /*background: red;*/
+    /*border:solid 5px;*/
+}
+.label label{
+    height: 20px;
+    /*background: #74a8d9;*/
+ }
+.label input{
+    margin-left: 110px;
+}
+.label textarea{
+    margin-left: 50px;
+}
+.label .inp_1{
+    margin-left: 103px;
+}
+.label .text_new{
+    margin-left: 175px;
+
+}
+.label  .inp_file{
+    margin-left:70px;
+}
+.label .inp_date{
+    margin-left:115px;
+}
+.label [type="reset"]{
+    margin-left: 270px;
+    width:180px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.label [type="reset"]:hover{
+    color: white;
+    background: black;
+}
+.label [type="submit"]{
+
+    width:180px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.label [type="submit"]:hover{
+    color: white;
+    background: black;
+}
+.label .text_cat{
+    margin-left:110px;
+}
+.label  .sub_cat{
+    width:200px;
+    height: 35px;
+    font-size: 20px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+.res{
+    margin-left: 270px;
+    width:180px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.res:hover{
+    color: white;
+    background: black;
+}
+
+.accept{
+    width:250px;
+    height: 35px;
+    font-size: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.accept:hover{
+    color: white;
+    background: black;
+}
